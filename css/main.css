@@ -1,0 +1,302 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;  
+    width: 800px; 
+    background-color: #BDECB6;
+    font-family: "Сomic Sans MS" Cursive; 
+}
+.header{
+    background-color: #47A76A;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.namecompany{
+    display: inline-block;
+    width: 799px;
+    text-align: center;
+}
+.namecompany a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-weight: 400;
+    text-align: center;
+}
+.menu{
+    top: 15px;
+    width: 750px;
+    margin: auto;
+}
+.menu ul {
+    background-color: #1E5945;
+    padding: 5px 5px 5px 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+.contentpage{
+    margin: 15px 15px 15px 15px;
+    background-color: rgb(212, 237, 224);
+    padding: 15px 15px 15px 15px;
+}
+.bottom{
+    background-color: #47A76A;
+    padding: 5px 5px 5px 15px;
+}
+.bottom2 {
+    display: inline-block;
+    width: 450px;
+    padding-left: 25px;
+}
+.bottom3 {
+    display: inline-block;
+  
+}
+/* каталог */
+.filtres{
+    width: 100px;
+    background-color: rgb(212, 237, 224);
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.pricefiltrs{
+    width: 60px;
+}
+.txtprice{
+    text-align: center;
+}
+.btnfilters{
+    text-align: center;
+}
+.position{
+    text-align: center;
+}
+.contentcatalogv{
+    width: 595px;
+    display: inline-block;
+    background-color: rgb(212, 237, 224);
+    padding: 15px 15px 15px 15px;
+    margin-left: 160px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contentpagecatalog{
+    position: relative;
+    min-height: 1000px;
+}
+.contentcatalogv h3{
+    text-align: center;
+}
+
+.buttonforbasket1{
+    border: 0;
+    border-radius: 5px;
+    background: #47A76A;
+    color: #fff;
+    padding: 3px 16px;
+    font-size: 20px;
+}
+#buttonforbasket2{
+    margin-left: 25px;
+}
+.buttonforbasket{
+    padding-left: 50px;
+    display: inline-block;
+}
+.pricev1{
+    padding-left: 150px;
+    display: inline-block;
+}
+.cartversion2{
+    width: 270px;
+    background-color: rgb(212, 237, 224);
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
+    margin-right: 15px;
+   margin-top: 15px;
+
+}
+.contentcatalogv2{
+    width: 635px;
+    display: inline-block;
+    margin-left: 160px;
+    margin-bottom: 15px;
+  
+}
+.cartversion3{
+    width: 170px;
+    background-color: rgb(212, 237, 224);
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
+    margin-right: 9px;
+   margin-bottom: 15px;
+}
+#buttonforbasket3{
+    margin-left: 0px;
+}
+.contentcatalogv3{
+    width: 635px;
+    display: inline-block;
+    margin-left: 160px;
+    margin-top: 15px;
+}
+.pricev3{
+    text-align: center;
+}
+/* cardproduct */
+.cartproductname h3{
+    text-align: center;
+}
+.cartproductname p{
+    width: 700px;   
+}
+.pricevcard{
+    display: inline-block;
+    padding-left: 250px;
+}
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #4CAF50;
+    background-color: #C8E6C9;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 246px;
+}
+.tab button:hover {
+    background-color: #c0ff86;
+}
+.tab button.active {
+    background-color: #4CAF50;
+    color: #fff;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #4CAF50;
+    border-top: none;
+}
+.buttonforbasketmod{
+    border: 0;
+    border-radius: 5px;
+    background: #47A76A;
+    color: #fff;
+    padding: 3px 16px;
+    font-size: 15px;
+    margin: auto;
+}
+.cartmod{
+    width: 205px;
+    display: inline-block;
+    background-color: #C8E6C9;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+}
+.cartmod1 h5{
+    text-align: center;
+}
+.tabcontent h3{
+    text-align: center;
+}
+.contentcomment{
+background-color: #C8E6C9;
+padding-top: 5px;
+padding-bottom: 15px;
+margin-top: 10px;
+}
+.registration-cssave{
+    padding-left: 260px;
+  }
+  .registration-cssave .item {
+    border-radius:5px;
+    margin-bottom:10px;
+    padding:5px 10px;
+  }
+  .registration-cssave .create-account {
+    border: 0;
+    border-radius: 5px;
+    background: #47A76A;
+    color: #fff;
+    padding: 3px 16px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .namecomment{
+    font-size: 20px;
+  }
+  .comment{
+    background-color: #C8E6C9;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* shopping */
+  .table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+.itog{
+    padding-left: 20px;
+}
+.itogbutton{
+    margin-left: 270px;
+}
+.oformzak{
+    padding-left: 100px;
+    padding-bottom: 15px;
+}
+/* вход */
+.authzag{
+    padding-left: 300px;
+ }
+.datacomment{
+    float: right;
+}
+#buttondeletecomment{
+    margin-left: 5px;
+}
+ /* comment */
+ .zagcom{
+    text-align: center;
+}
+.polevvod{
+    margin-left: 110px;
+}
+.buttoncomment3{
+    margin-left: 300px;
+    
+}
+.promo{
+    padding-left: 20px;
+}
