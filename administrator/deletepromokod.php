@@ -3,6 +3,7 @@
   session_start();
                   if(($_SESSION['login'])!='admin') {
                     header('Location: ../main.php' ); 
+                    die();
                   }
   require_once '../connect.php'; //подкл файл
 
